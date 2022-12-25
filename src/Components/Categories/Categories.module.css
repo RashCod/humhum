@@ -1,0 +1,45 @@
+.categoryBlock {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  padding: 0 50px;
+}
+.categoryNav {
+  max-width: 100%;
+}
+
+.categoryUl {
+  display: flex;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #2c2c2c;
+}
+
+.categoryUl li {
+  margin-right: 30px;
+  background: #f9f9f9;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.categoryUl .active {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  background: #282828;
+  border-radius: 30px;
+  color: #ffffff;
+}
+

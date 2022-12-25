@@ -1,0 +1,31 @@
+.inputBlock {
+  position: relative;
+}
+
+.input {
+  width: 300px;
+  border: 1px solid rgb(186, 184, 184);
+  border-radius: 20px;
+  padding-left: 28px;
+  padding-top: 3px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.close {
+  position: absolute;
+  width: 30px;
+  right: 2px;
+  opacity: 0.4;
+}
+
+.close:hover {
+  opacity: 0.8;
+}
+
+.search{
+position: absolute;
+top: 4px;
+left: 4px;
+opacity: 0.5;
+}
